@@ -1,0 +1,23 @@
+#puzzle-container {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    border: 1px solid #000;
+    background-color: #f3f3f3;
+    margin: 20px auto;
+}
+
+.puzzle-piece {
+    background-size: 600px 600px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#controls {
+    text-align: center;
+}
+
+#scoreboard {
+    text-align: center;
+    margin-top: 20px;
+}
